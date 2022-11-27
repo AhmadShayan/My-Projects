@@ -137,8 +137,8 @@
 
   let alarmhour = alarm.value.split(":")[0]
   let alarmmin = alarm.value.split(":")[1]
-  // console.log(d.getHours(), alarmhour)
-  // console.log(d.getMinutes(), alarmmin)
+  console.log(d.getHours(), alarmhour)
+  console.log(d.getMinutes(), alarmmin)
   if(d.getHours()==alarmhour && d.getMinutes() == alarmmin){
     console.log("Alarm is ringing")
     let audiourl = "https://file-examples.com/storage/fe00efbd3c63761a498eda8/2017/11/file_example_MP3_700KB.mp3"
