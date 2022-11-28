@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #07a2bb !important;
+  background-image:linear-gradient(-45deg, #075686, rgb(0 255 214 / 50%));
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
